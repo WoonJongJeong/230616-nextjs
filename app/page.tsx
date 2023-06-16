@@ -4,6 +4,8 @@ export default function Home() {
   return (
     <>
       <h2>Welcome</h2>
-    Hello, Web!</>
+    Hello, Web!
+    <img src="/flower.jpg" alt="" width="100" />
+    </>
   )
 }
