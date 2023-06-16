@@ -6,10 +6,3 @@ export const db = {
   }
 
   export default db
-
-  export const db2 = {
-    topics: [
-      {id:3, title:'html', body:'html is ...'},
-      {id:4, title:'css', body:'css is ...'},
-    ]
-  }
