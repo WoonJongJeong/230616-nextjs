@@ -28,7 +28,8 @@ export const metadata = {
         .then(resp=>resp.json())
         .then(result=>{
             console.log("result", result);
-            //router.push("/read/" + result.id);
+            
+            router.push("/read/" + result.id);
         });
       }}>
         <p>
